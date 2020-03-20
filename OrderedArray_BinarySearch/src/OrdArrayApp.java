@@ -12,9 +12,7 @@ public class OrdArrayApp {
             System.out.println("Can't find " + searchKey);
 
         array.display();
-
         array.delete(searchKey);
-
         array.display();
     }
 }
