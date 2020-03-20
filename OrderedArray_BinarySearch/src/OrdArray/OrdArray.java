@@ -1,5 +1,7 @@
 //Работа с классом упорядоченного массива
 
+package OrdArray;
+
 public class OrdArray {
     private long[] arr; //Ссылка на массив
     private int nElems; //Количество элементов данных
@@ -8,7 +10,7 @@ public class OrdArray {
         arr = new long[max];
         nElems = 0;
     }
-    
+
     public int size() { return nElems; }
 
     public int find(long searchKey) {
