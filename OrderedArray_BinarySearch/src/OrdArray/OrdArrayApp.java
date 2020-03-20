@@ -1,3 +1,7 @@
+package OrdArray;
+
+import OrdArray.OrdArray;
+
 public class OrdArrayApp {
     public static void main(String[] args) {
         int maxSize = 100;
