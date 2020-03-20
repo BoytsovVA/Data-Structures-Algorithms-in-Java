@@ -32,13 +32,24 @@ public class OrdArray {
     }
 
     public void insert(long value) {
-        int i;
-        for (i = 0; i < nElems; i++)
-            if (arr[i] > value)
+        double lowerBound = 0;
+        double upperBound = nElems - 1;
+        int curIn;
+
+        while(true) {
+            curIn = (int)Math.round((lowerBound + upperBound) / 2);
+            if (lowerBound > upperBound)
                 break;
-        for (int j = nElems; j > i; j--)
+            else {
+                if (arr[curIn] < value)
+                    lowerBound = curIn + 1;
+                else
+                    upperBound = curIn - 1;
+            }
+        }
+        for (int j = nElems; j > curIn; j--)
             arr[j] = arr[j-1];
-        arr[i] = value;
+        arr[curIn] = value;
         nElems++;
     }
 
