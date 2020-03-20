@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Data-Structures-Algorithms-in-Java.iml" filepath="$PROJECT_DIR$/.idea/Data-Structures-Algorithms-in-Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Data-Structures-Algorithms-in-Java.iml" filepath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java.iml" />
     </modules>
   </component>
 </project>

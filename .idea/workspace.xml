@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be81fc83-9283-4e9e-a637-c84ce0c7cb3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OrderedArray_BinarySearch/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="c11a708b-816a-45f7-93fa-a75a37962444" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Data-Structures-Algorithms-in-Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/src/HighArrayApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/src/highArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/АиСД.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderedArray_BinarySearch/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OrderedArray_BinarySearch/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderedArray_BinarySearch/src/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderedArray_BinarySearch/src/OrdArray/OrdArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderedArray_BinarySearch/src/OrdArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderedArray_BinarySearch/src/OrdArray/OrdArrayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/.idea/OrderedArray_BinarySearch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/OrderedArray_BinarySearch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/out/production/OrderedArray_BinarySearch/META-INF/OrderedArray_BinarySearch.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/src/Array/HighArrayApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/src/Array/highArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/src/OrdArray/OrdArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data-Structures-Algorithms-in-Java/src/OrdArray/OrdArrayApp.java" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,17 +27,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OrderedArray_BinarySearch/out/production/OrderedArray_BinarySearch/Array/highArray.class">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/highArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#1182#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array/HighArrayApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OrdArray/OrdArrayApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -41,24 +63,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Array/src/highArray.java" />
-        <option value="$PROJECT_DIR$/Array/src/HighArrayApp.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Data-Structures-Algorithms-in-Java.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -80,49 +84,30 @@
             <path>
               <item name="Data-Structures-Algorithms-in-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data-Structures-Algorithms-in-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderedArray_BinarySearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data-Structures-Algorithms-in-Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data-Structures-Algorithms-in-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderedArray_BinarySearch" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data-Structures-Algorithms-in-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures-Algorithms-in-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderedArray_BinarySearch" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data-Structures-Algorithms-in-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures-Algorithms-in-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderedArray_BinarySearch" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderedArray_BinarySearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Data-Structures-Algorithms-in-Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Data-Structures-Algorithms-in-Java" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderedArray_BinarySearch" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="OrderedArray_BinarySearch" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data-Structures-Algorithms-in-Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structures-Algorithms-in-Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OrdArray" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,12 +121,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="OrdArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="13" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="OrdArrayApp" />
+  <component name="RunManager" selected="Application.OrdArrayApp">
+    <configuration name="HighArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.HighArrayApp" />
       <module name="Data-Structures-Algorithms-in-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrdArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OrdArray.OrdArrayApp" />
+      <module name="Data-Structures-Algorithms-in-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OrdArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,6 +151,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.OrdArrayApp" />
+        <item itemvalue="Application.HighArrayApp" />
       </list>
     </recent_temporary>
   </component>
@@ -157,11 +160,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="be81fc83-9283-4e9e-a637-c84ce0c7cb3a" name="Default Changelist" comment="" />
-      <created>1584657361702</created>
+      <changelist id="c11a708b-816a-45f7-93fa-a75a37962444" name="Default Changelist" comment="" />
+      <created>1584667372028</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1584657361702</updated>
+      <updated>1584667372028</updated>
     </task>
     <servers />
   </component>
@@ -169,13 +172,17 @@
     <frame x="0" y="23" width="1680" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289941" />
@@ -183,43 +190,35 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/OrderedArray_BinarySearch/out/production/OrderedArray_BinarySearch/OrdArrayApp.class" />
-    <entry file="file://$PROJECT_DIR$/OrderedArray_BinarySearch/out/production/OrderedArray_BinarySearch/OrdArray.class" />
-    <entry file="file://$PROJECT_DIR$/Array/src/HighArrayApp.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/highArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Array/src/highArray.java">
+    <entry file="file://$PROJECT_DIR$/src/Array/HighArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OrderedArray_BinarySearch/out/production/OrderedArray_BinarySearch/Array/highArray.class">
+    <entry file="file://$PROJECT_DIR$/src/OrdArray/OrdArrayApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1182#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
