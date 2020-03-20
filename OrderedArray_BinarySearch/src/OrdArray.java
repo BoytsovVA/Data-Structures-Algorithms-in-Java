@@ -8,7 +8,6 @@ public class OrdArray {
         arr = new long[max];
         nElems = 0;
     }
-
     public int size() { return nElems; }
 
     public int find(long searchKey) {
