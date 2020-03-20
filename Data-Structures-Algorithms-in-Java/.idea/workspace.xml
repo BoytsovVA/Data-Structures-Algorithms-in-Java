@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc832997-b09d-4d50-82c7-3b5959fac1cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Array/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Array/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Array/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Array/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Array/src/HighArrayApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Array/src/highArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Array/АиСД.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrdArray/OrdArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrdArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrdArray/OrdArrayApp.java" afterDir="false" />
-    </list>
+    <list default="true" id="bc832997-b09d-4d50-82c7-3b5959fac1cd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,8 +112,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,7 +176,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="937" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26800978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
