@@ -67,6 +67,32 @@ public class OrdArray {
         }
     }
 
+    public static OrdArray merge(OrdArray arr1, OrdArray arr2) {
+        OrdArray result = new OrdArray(arr1.size() + arr2.size());
+//        int firstIndex = 0;
+//        int secondIndex = 0;
+//        for(int i=0; i< result.arr.length;i++) {
+//            if(firstIndex >= arr1.size()){
+//                result.insert(arr2.arr[secondIndex]);
+//                secondIndex += 1;
+//            }else if(secondIndex >= arr2.size()){
+//                result.insert(arr1.arr[firstIndex]);
+//                firstIndex += 1;
+//            }else if (arr1.arr[firstIndex] < arr2.arr[secondIndex]){
+//                result.insert(arr1.arr[firstIndex]);
+//                firstIndex += 1;
+//            }else{
+//                result.insert(arr2.arr[secondIndex]);
+//                secondIndex += 1;
+//            }
+//        }
+        for (int i = 0; i < arr1.nElems; i++)
+            result.insert(arr1.arr[i]);
+        for (int i = 0; i < arr2.nElems; i++)
+            result.insert(arr2.arr[i]);
+        return result;
+        }
+
     public void display() {
         for (int i = 0; i < nElems; i++)
             System.out.print(arr[i] + " ");
