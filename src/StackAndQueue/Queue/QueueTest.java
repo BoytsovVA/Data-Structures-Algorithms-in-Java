@@ -6,7 +6,7 @@ public class QueueTest {
         SimpleQueue queue = new SimpleQueue(3);
         queue.insert(10);
         queue.insert(20);
-        queue.insert(30);
+        queue.insert("fff");
         queue.insert(40);
         queue.display();
         System.out.println("__________");
