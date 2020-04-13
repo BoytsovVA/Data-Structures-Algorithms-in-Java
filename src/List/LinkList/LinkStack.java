@@ -31,7 +31,7 @@ public class LinkStack <T> implements Stack {
 
     @Override
     public Object Peek() {
-        return stacklist.getFirst();
+        return stacklist.getFirst().data;
     }
 
     @Override
