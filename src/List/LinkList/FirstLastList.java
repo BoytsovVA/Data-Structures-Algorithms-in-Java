@@ -11,6 +11,14 @@ public class FirstLastList extends Link implements IList {
         last = null;
     }
 
+    public Link getFirst() {
+        return first;
+    }
+
+    public Link getLast() {
+        return last;
+    }
+
     @Override
     public boolean isEmpty() {
         return first == null;
