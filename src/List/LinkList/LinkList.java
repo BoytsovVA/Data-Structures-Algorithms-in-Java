@@ -89,4 +89,7 @@ public class LinkList extends Link implements IList {
         }
     }
 
+    public Link getFirst() {
+        return first;
+    }
 }
