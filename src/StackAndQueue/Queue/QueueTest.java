@@ -4,38 +4,41 @@ public class QueueTest {
     public static void main(String[] args) {
         int n = 3;
         SimpleQueue queue = new SimpleQueue(3);
-        queue.insert(10);
-        queue.insert(20);
-        queue.insert("fff");
-        queue.insert(40);
+        System.err.println("\nSimpleQueue\n");
+        for (int i = 0; i < 12; i ++) {
+            queue.insert(i * 10);
+        }
         queue.display();
-        System.out.println("__________");
+        System.out.println(" ");
         for (int i = 0; i < 3; i++) {
             System.out.println(queue.remove());
         }
-        System.out.println("__________");
-        queue.insert(50);
-        queue.insert(60);
-        queue.insert(70);
-        queue.insert(80);
+        System.out.println(" ");
+        System.err.println("Новая вставка");
+        for (int i = 0; i < 12; i ++) {
+            queue.insert(i * 100);
+        }
+        queue.display();
+        System.out.println("\n");
         for (int i = 0; i < 4; i++){
             System.out.print(" " + queue.remove());
         }
-        queue.insert(90);
-        System.out.println("_____");
-        System.out.println(queue.remove());
-        queue.insert(100);
-        System.out.println(queue.remove());
-        System.out.printf(queue.size().toString());
+        for (int i = 0; i < 4; i ++) {
+            queue.insert(i);
+        }
+        System.out.println("\n_____");
+        queue.display();
+        System.out.println("Еще удаление");
+        for (int i = 0; i < 12; i++)
+            System.out.print(queue.remove() + " ");
 
-        System.out.println("PriorityQueue\n");
+        System.out.printf("\n" + queue.size().toString());
+
+        System.err.println("\nPriorityQueue\n");
         PriorityQueue pq = new PriorityQueue(3);
-        pq.insert(30);
-        pq.remove();
-        pq.insert(50);
-        pq.insert(10);
-        pq.insert(20);
-        pq.insert(20);
+        for (int i = 0; i < 12; i ++) {
+            pq.insert(i * 10);
+        }
         pq.display();
         System.out.println(" ");
 //        while (!pq.isEmpty()) {
@@ -44,9 +47,25 @@ public class QueueTest {
         pq.remove();
         pq.remove();
         pq.remove();
+        System.err.println("После удаления");
+        pq.display();
+        System.out.println(" ");
+        System.err.println("Новая вставка");
+
+        for (int i = 0; i < 12; i ++) {
+            pq.insert(i * 100);
+        }
+        pq.display();
+        System.out.println("\n");
         pq.remove();
+        pq.display();
+        System.out.println();
+        pq.remove();
+        pq.remove();
+        pq.remove();
+        pq.display();
+        System.out.println();
         pq.insert(60);
-        pq.remove();
         pq.display();
     }
 }

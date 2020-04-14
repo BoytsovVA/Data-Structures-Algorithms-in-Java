@@ -1,4 +1,8 @@
-package List.LinkList;
+package List.LinkedList;
+
+import List.LinkedList.FirstLastList;
+import List.LinkedList.Link;
+import List.LinkedList.LinkList;
 
 public class ListTest {
     public static void main(String[] args) {
@@ -7,7 +11,7 @@ public class ListTest {
         theList.insertFirst("Str");
         theList.insertFirst(33);
         theList.insertFirst(44);
-        theList.Display();
+        theList.display();
         System.out.println();
         theList.deleteFirst().DisplayLink();
         System.err.println("\nCheck find");
@@ -27,7 +31,7 @@ public class ListTest {
             System.out.println("Can’t delete link");
 
         System.err.println("Check all list");
-        theList.Display();
+        theList.display();
         System.out.println();
 
         while (!theList.isEmpty()) {
@@ -49,12 +53,12 @@ public class ListTest {
         theList1.insertLast(33);
         theList1.insertLast(55);
 
-        theList1.Display();
+        theList1.display();
 
         theList1.deleteFirst();
         theList1.deleteFirst();
 
-        theList1.Display();
+        theList1.display();
 
         Link f1 = theList1.find(11);
         if (f1 == null)
@@ -71,6 +75,6 @@ public class ListTest {
             System.out.println("Can’t delete link");
 
         System.err.println("Check all list");
-        theList1.Display();
+        theList1.display();
     }
 }

@@ -1,5 +1,6 @@
-package List.LinkList;
+package List.LinkStack;
 
+import List.LinkedList.LinkList;
 import StackAndQueue.Stack.Stack;
 
 public class LinkStack <T> implements Stack {
@@ -31,11 +32,11 @@ public class LinkStack <T> implements Stack {
 
     @Override
     public Object Peek() {
-        return stacklist.getFirst().data;
+        return stacklist.getFirst();
     }
 
     @Override
     public void display() {
-        stacklist.Display();
+        stacklist.display();
     }
 }

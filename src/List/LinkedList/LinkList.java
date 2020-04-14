@@ -1,4 +1,4 @@
-package List.LinkList;
+package List.LinkedList;
 
 public class LinkList extends Link implements IList {
     private Link first;
@@ -35,8 +35,8 @@ public class LinkList extends Link implements IList {
     }
 
     @Override
-    public void Display() {
-        System.out.println("List(first ---> last): ");
+    public void display() {
+        System.out.println("SortedList(first ---> last): ");
         Link current = first;
         while (current != null) {
             current.DisplayLink();
@@ -48,7 +48,7 @@ public class LinkList extends Link implements IList {
     public Link find(Object key) {
         Link current = first;
         try {
-            while (current.data != key) {
+            while (!current.data.equals(key)) {
                 if (current.next == null)
                    throw new RuntimeException();
                 else
@@ -64,7 +64,7 @@ public class LinkList extends Link implements IList {
     @Override
     public Link delete(Object key) {
         if (isEmpty()) {
-            System.out.println("List is empty");
+            System.out.println("SortedList is empty");
             return null;
         }
         Link current = first;
