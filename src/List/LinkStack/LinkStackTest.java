@@ -1,4 +1,6 @@
-package List.LinkList;
+package List.LinkStack;
+
+import List.LinkStack.LinkStack;
 
 public class LinkStackTest {
     public static void main(String[] args) {

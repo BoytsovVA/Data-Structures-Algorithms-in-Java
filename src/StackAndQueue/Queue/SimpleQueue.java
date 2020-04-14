@@ -32,6 +32,8 @@ public class SimpleQueue implements Queue {
             maxSize += 1;
             arr = Arrays.copyOf(arr, maxSize);
             if (front == (rear+1)) {
+                for (int i = maxSize- 1; i > front; i--)
+                    arr[i] = arr[i - 1];
                 arr[front + 1] = arr[front++];
                 arr[++rear] = data;
                 nItems++;
@@ -74,7 +76,7 @@ public class SimpleQueue implements Queue {
     @Override
     public void display() {
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
         }
     }
 }

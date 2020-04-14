@@ -1,4 +1,6 @@
-package List.LinkList;
+package List.LinkQueue;
+
+import List.LinkQueue.LinkQueue;
 
 public class LinkQueueTest {
     public static void main(String[] args) {

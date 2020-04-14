@@ -1,5 +1,6 @@
-package List.LinkList;
+package List.LinkQueue;
 
+import List.LinkedList.FirstLastList;
 import StackAndQueue.Queue.Queue;
 
 public class LinkQueue implements Queue {
@@ -21,7 +22,7 @@ public class LinkQueue implements Queue {
 
     @Override
     public Object peekFront() {
-        return queuelist.getFirst().data;
+        return queuelist.getFirst();
     }
 
     @Override
@@ -41,6 +42,6 @@ public class LinkQueue implements Queue {
 
     @Override
     public void display() {
-        queuelist.Display();
+        queuelist.display();
     }
 }
