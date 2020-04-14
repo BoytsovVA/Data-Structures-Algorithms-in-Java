@@ -16,12 +16,12 @@ public class ListIterator {
     }
 
     public boolean atEnd() {
-        return ourList.next == null;
+        return ourList.getFirst().next == null;
     }
 
     public void nextLink() {
         try {
-            if ((!atEnd()) && (!ourList.isEmpty()))
+            if ((atEnd()) && (ourList.isEmpty()))
                 throw new RuntimeException();
             previous = current;
             current = current.next;
@@ -32,7 +32,15 @@ public class ListIterator {
     }
 
     public Link getCurrent() {
-        return current;
+        try {
+            if (ourList.isEmpty())
+                throw new RuntimeException();
+            return current;
+        }catch (RuntimeException ex) {
+            System.out.println("List is empty");
+            ex.printStackTrace();
+            return null;
+        }
     }
 
     public void insertAfter(Object data) {
@@ -52,11 +60,11 @@ public class ListIterator {
         if (previous == null) {
             newLink.next = ourList.getFirst();
             ourList.setFirst(newLink);
-            nextLink();
+            reset();
         } else {
-            newLink.next = current.next;
-            current.next = newLink;
-            nextLink();
+            newLink.next = previous.next;
+            previous.next = newLink;
+            current = newLink;
         }
     }
 

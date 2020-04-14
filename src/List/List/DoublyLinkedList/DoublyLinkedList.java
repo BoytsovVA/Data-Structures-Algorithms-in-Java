@@ -2,12 +2,11 @@ package List.List.DoublyLinkedList;
 
 import List.LinkedList.IList;
 
-public class DoublyLinkedList extends Link implements IList {
+public class DoublyLinkedList implements IList {
     private Link first;
     private Link last;
 
     public DoublyLinkedList() {
-        super(null);
         first = null;
         last = null;
     }

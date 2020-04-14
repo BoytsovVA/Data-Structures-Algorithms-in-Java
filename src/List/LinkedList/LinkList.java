@@ -1,10 +1,9 @@
 package List.LinkedList;
 
-public class LinkList extends Link implements IList {
+public class LinkList implements IList {
     private Link first;
 
     public LinkList() {
-        super(null);
         first = null;
     }
     @Override

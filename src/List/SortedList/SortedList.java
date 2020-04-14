@@ -3,16 +3,14 @@ package List.SortedList;
 import List.LinkedList.IList;
 import List.LinkedList.Link;
 
-public class SortedList extends Link implements IList {
+public class SortedList implements IList {
     private Link first;
 
     public SortedList() {
-        super(null);
         first = null;
     }
 
     public SortedList(Link[] links) {
-        super(null);
         first = null;
         for (int i = 0; i < links.length; i++) {
             insert(links[i].getData());

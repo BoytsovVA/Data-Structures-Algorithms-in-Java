@@ -1,10 +1,9 @@
 package List.List.Iterator;
 
-public class LinkList extends Link  {
+public class LinkList {
     private Link first;
 
     public LinkList() {
-        super(null);
         first = null;
     }
 
@@ -25,6 +24,10 @@ public class LinkList extends Link  {
     }
 
     public void displayList() {
-
+        Link current = first;
+        while (current != null) {
+            current.display();
+            current = current.next;
+        }
     }
 }

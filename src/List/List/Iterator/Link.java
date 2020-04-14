@@ -1,6 +1,6 @@
 package List.List.Iterator;
 
-public class Link <T>{
+public class Link <T> {
     protected T data;
     protected Link next;
 
@@ -12,4 +12,5 @@ public class Link <T>{
     public void display() {
         System.out.print(data + " ");
     }
+
 }

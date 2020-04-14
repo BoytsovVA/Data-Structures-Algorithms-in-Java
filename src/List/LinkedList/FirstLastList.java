@@ -1,12 +1,11 @@
 package List.LinkedList;
 
-public class FirstLastList extends Link implements IList {
+public class FirstLastList implements IList {
     private Link first;
     private Link last;
 
 
     public FirstLastList() {
-        super(null);
         first = null;
         last = null;
     }
