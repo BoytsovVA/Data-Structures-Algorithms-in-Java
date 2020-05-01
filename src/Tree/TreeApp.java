@@ -6,6 +6,7 @@ public class TreeApp {
         theTree.insert(50);
         theTree.insert(25);
         theTree.insert(75);
+
         Node found = theTree.find(50);
         if (found != null)
             found.displayNode();
