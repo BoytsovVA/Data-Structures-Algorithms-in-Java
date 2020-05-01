@@ -1,9 +1,9 @@
 package SortingMethods.SelectionSort;
 
-import SortingMethods.ArraySort;
+import SortingMethods.Array;
 
-public class SelectionSort extends ArraySort {
-    public SelectionSort(int max) {
+public class Selection extends Array {
+    public Selection(int max) {
         super(max);
     }
 
@@ -12,7 +12,7 @@ public class SelectionSort extends ArraySort {
         for (int i = 0; i < nElems - 1; i++) {
             min = i;
             for (int j = i + 1; j < nElems; j++)
-                if (a[j] < a[min])
+                if (arr[j] < arr[min])
                     min = j;
             swap(i, min);
         }
